@@ -6,7 +6,7 @@ import './index.css'
 
 class BlogList extends Component {
   render() {
-    const {blogsList} = this.Props
+    const {blogsList} = this.props
     return (
       <ul className="list-container">
         {blogsList.map(each => (
